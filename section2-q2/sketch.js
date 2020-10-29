@@ -8,11 +8,9 @@ function setup() {
  if((i+j)%2==0){
    fill(255);
  }
-
-   else{
+ else{
      fill(128);
    }
- 
 
    rect(size*i, size*j, size, size);
 
@@ -22,8 +20,7 @@ function setup() {
        ellipse((size*i+size*(i+1))/2, (size*j+size*(j+1))/2, size,size);
      }
    }
-
-    for(let j= 5; j <8; j++){
+  for(let j= 5; j <8; j++){
      if( (i+j)%2 !=0 ){
        fill(0);
        ellipse((size*i+size*(i+1))/2, (size*j+size*(j+1))/2, size,size);
@@ -32,5 +29,4 @@ function setup() {
     }
 
     }
-
 }
